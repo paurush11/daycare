@@ -16,9 +16,8 @@ public class MainJFrame extends javax.swing.JFrame {
 
     public MainJFrame() {
         initComponents();
-        //classRoomJPanel();
+        
         setExtendedState(JFrame.MAXIMIZED_BOTH);    
-//        setUndecorated(true);
         setVisible(true);
     }
 
@@ -57,26 +56,27 @@ public class MainJFrame extends javax.swing.JFrame {
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(0, 0, 0));
 
         containerJPanel.setBackground(new java.awt.Color(255, 255, 255));
         containerJPanel.setSize(new java.awt.Dimension(900, 600));
 
         splitPane.setDividerLocation(300);
         splitPane.setDividerSize(30);
+        
         splitPane.setMinimumSize(new java.awt.Dimension(800, 25));
 
-        controlJPanel.setBackground(new java.awt.Color(204, 204, 0));
+        controlJPanel.setBackground(new java.awt.Color(130, 187, 181));
 
         btnTeacher.setFont(new java.awt.Font("Charter", 1, 14)); // NOI18N
-        btnTeacher.setForeground(new java.awt.Color(204, 0, 0));
+        btnTeacher.setForeground(new java.awt.Color(51, 0, 102));
         btnTeacher.setText("Teachers");
         btnTeacher.setToolTipText("teacher");
         btnTeacher.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btnTeacher.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         btnStudent.setFont(new java.awt.Font("Charter", 1, 14)); // NOI18N
-        btnStudent.setForeground(new java.awt.Color(204, 0, 0));
+        btnStudent.setForeground(new java.awt.Color(51, 0, 102));
         btnStudent.setText("Students");
         btnStudent.setToolTipText("Student");
         btnStudent.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -100,12 +100,12 @@ public class MainJFrame extends javax.swing.JFrame {
         });
 
         lblMainTitle.setFont(new java.awt.Font("Charter", 1, 24)); // NOI18N
-        lblMainTitle.setForeground(new java.awt.Color(204, 51, 0));
+        lblMainTitle.setForeground(new java.awt.Color(51, 0, 102));
         lblMainTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblMainTitle.setText("DAY CARE");
 
         immRulesBtn.setFont(new java.awt.Font("Charter", 1, 14)); // NOI18N
-        immRulesBtn.setForeground(new java.awt.Color(204, 0, 0));
+        immRulesBtn.setForeground(new java.awt.Color(51, 0, 102));
         immRulesBtn.setText("Immunization Rules");
         immRulesBtn.setToolTipText("teacher");
         immRulesBtn.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -117,7 +117,7 @@ public class MainJFrame extends javax.swing.JFrame {
         });
 
         btnAlert.setFont(new java.awt.Font("Charter", 1, 14)); // NOI18N
-        btnAlert.setForeground(new java.awt.Color(204, 0, 0));
+        btnAlert.setForeground(new java.awt.Color(51, 0, 102));
         btnAlert.setText("Dashboard");
         btnAlert.setToolTipText("Student");
         btnAlert.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
