@@ -62,7 +62,7 @@ public class MainJFrame extends javax.swing.JFrame {
         containerJPanel.setSize(new java.awt.Dimension(900, 600));
 
         splitPane.setDividerLocation(300);
-        splitPane.setDividerSize(30);
+        splitPane.setDividerSize(0);
         
         splitPane.setMinimumSize(new java.awt.Dimension(800, 25));
 
